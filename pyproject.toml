@@ -1,7 +1,7 @@
 [project]
-name = "dexb2-2026"
+name = "my-rosalind"
 version = "2026.0.0"
-description = "Biology 2A: Data Exploration in Biology — course notebooks and data"
+description = ""
 requires-python = ">=3.12"
 dependencies = [
     "jupyterlab>=4.6.3",

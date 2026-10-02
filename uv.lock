@@ -587,45 +587,6 @@ wheels = [
 ]
 
 [[package]]
-name = "dexb2-2026"
-version = "2026.0.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "ipykernel" },
-    { name = "jupyter-ruff" },
-    { name = "jupyterlab" },
-    { name = "jupyterlab-lsp" },
-    { name = "notebook" },
-    { name = "numpy" },
-    { name = "openpyxl" },
-    { name = "pandas" },
-    { name = "python-lsp-ruff" },
-    { name = "python-lsp-server" },
-    { name = "ruff" },
-    { name = "scipy" },
-    { name = "seaborn" },
-    { name = "xlrd" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "ipykernel", specifier = ">=6.29" },
-    { name = "jupyter-ruff", specifier = ">=0.1" },
-    { name = "jupyterlab", specifier = ">=4.6.3" },
-    { name = "jupyterlab-lsp", specifier = ">=5.1" },
-    { name = "notebook", specifier = ">=7.2" },
-    { name = "numpy", specifier = ">=2.0" },
-    { name = "openpyxl", specifier = ">=3.1" },
-    { name = "pandas", specifier = ">=2.2" },
-    { name = "python-lsp-ruff", specifier = ">=2.2" },
-    { name = "python-lsp-server", specifier = ">=1.12" },
-    { name = "ruff", specifier = ">=0.14" },
-    { name = "scipy", specifier = ">=1.14" },
-    { name = "seaborn", specifier = ">=0.13" },
-    { name = "xlrd", specifier = ">=2.0.1" },
-]
-
-[[package]]
 name = "docstring-to-markdown"
 version = "0.17"
 source = { registry = "https://pypi.org/simple" }
@@ -1403,6 +1364,45 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/7b/92/328a294a6de83bacb95bed01f04e0eaff4e3616ee359fc821a5dfc539b02/mistune-3.3.4.tar.gz", hash = "sha256:58b5c96d6fcb61190dfe5fae498d2b2065f99cf61e9649418fd54cf1ada86dfe", size = 121426, upload-time = "2026-07-22T05:22:30.89Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/77/e4/288365afae98953bc01de09f686f40d8ee84578135aa7767d5d4e60b5278/mistune-3.3.4-py3-none-any.whl", hash = "sha256:ee015381e955e370962968befe1d729ab60fafb6a715ac6751763fbce38c8d4a", size = 66862, upload-time = "2026-07-22T05:22:29.419Z" },
+]
+
+[[package]]
+name = "my-rosalind"
+version = "2026.0.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "ipykernel" },
+    { name = "jupyter-ruff" },
+    { name = "jupyterlab" },
+    { name = "jupyterlab-lsp" },
+    { name = "notebook" },
+    { name = "numpy" },
+    { name = "openpyxl" },
+    { name = "pandas" },
+    { name = "python-lsp-ruff" },
+    { name = "python-lsp-server" },
+    { name = "ruff" },
+    { name = "scipy" },
+    { name = "seaborn" },
+    { name = "xlrd" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "ipykernel", specifier = ">=6.29" },
+    { name = "jupyter-ruff", specifier = ">=0.1" },
+    { name = "jupyterlab", specifier = ">=4.6.3" },
+    { name = "jupyterlab-lsp", specifier = ">=5.1" },
+    { name = "notebook", specifier = ">=7.2" },
+    { name = "numpy", specifier = ">=2.0" },
+    { name = "openpyxl", specifier = ">=3.1" },
+    { name = "pandas", specifier = ">=2.2" },
+    { name = "python-lsp-ruff", specifier = ">=2.2" },
+    { name = "python-lsp-server", specifier = ">=1.12" },
+    { name = "ruff", specifier = ">=0.14" },
+    { name = "scipy", specifier = ">=1.14" },
+    { name = "seaborn", specifier = ">=0.13" },
+    { name = "xlrd", specifier = ">=2.0.1" },
 ]
 
 [[package]]
