@@ -1,0 +1,27 @@
+[project]
+name = "dexb2-2026"
+version = "2026.0.0"
+description = "Biology 2A: Data Exploration in Biology — course notebooks and data"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyterlab>=4.6.3",
+    "notebook>=7.2",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.14",
+    "seaborn>=0.13",
+    "ipykernel>=6.29",
+    "openpyxl>=3.1",
+    "xlrd>=2.0.1",
+    "jupyterlab-lsp>=5.1",
+    "python-lsp-server>=1.12",
+    "python-lsp-ruff>=2.2",
+    "ruff>=0.14",
+    "jupyter-ruff>=0.1",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py312"

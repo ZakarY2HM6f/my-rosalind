@@ -1,0 +1,13 @@
+# devenv
+.devenv*
+devenv.local.nix
+.direnv
+
+# uv / Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
