@@ -19,6 +19,8 @@ dependencies = [
     "ruff>=0.14",
     "regex>=2026.4",
     "jupyter-ruff>=0.1",
+    "biopython>=1.88",
+    "matplotlib>=3.11.2",
 ]
 
 [tool.uv]
